@@ -12,7 +12,7 @@
 #define ITEM item_electric_New_Zealand_NZR_ED
 #define NAME string(str_electric_New_Zealand_NZR_ED)
 
-#define VEHICLE_REGION REGION(OCEANIA,NOREGION,NOCONCEPT)
+#define VEHICLE_REGION REGION(NOSHUNT,NOCONCEPT)
 
 #define INTRODUCTION_YEAR 1938
 #define MODEL_LIFE 10

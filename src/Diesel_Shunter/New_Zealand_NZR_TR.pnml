@@ -12,7 +12,7 @@
 #define ITEM item_diesel_New_Zealand_NZR_TR
 #define NAME string(str_diesel_New_Zealand_NZR_TR)
 
-#define VEHICLE_REGION REGION(OCEANIA,NOREGION,NOCONCEPT)
+#define VEHICLE_REGION REGION(ISSHUNT,NOCONCEPT)
 
 #define INTRODUCTION_YEAR 1924
 #define MODEL_LIFE 54
@@ -28,8 +28,8 @@
 #define TE_COEFFICIENT 0.2
 #define AIR_DRAG_COEFFICIENT 0
 
-#define LENGTH 7
-#define ACTUAL_LENGTH 7
+#define LENGTH 4
+#define ACTUAL_LENGTH 4
 
 #define HEAD_CAPACITY 0
 

@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_electric_New_Zealand_NZR_EC_purchase, "gfx/Electric/Germany_DB_104.png") {
+spriteset(spriteset_electric_New_Zealand_NZR_EC_purchase, "gfx/Electric/New_Zealand_NZR_EC.png") {
 	template_purchase(1, 64)
 }
 
@@ -19,7 +19,7 @@ spriteset(spriteset_electric_New_Zealand_NZR_EC_purchase, "gfx/Electric/Germany_
 */
 
 //Engine
-spriteset(spriteset_electric_New_Zealand_NZR_EC, "gfx/Electric/Germany_DB_104.png") {
+spriteset(spriteset_electric_New_Zealand_NZR_EC, "gfx/Electric/New_Zealand_NZR_EC.png") {
 	template_2cc_engines_general(1, 1)
 }
 

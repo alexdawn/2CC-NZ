@@ -12,7 +12,7 @@
 #define ITEM item_diesel_New_Zealand_NZR_DSJ
 #define NAME string(str_diesel_New_Zealand_NZR_DSJ)
 
-#define VEHICLE_REGION REGION(OCEANIA,NOREGION,NOCONCEPT)
+#define VEHICLE_REGION REGION(ISSHUNT,NOCONCEPT)
 
 #define INTRODUCTION_YEAR 1984
 #define MODEL_LIFE 10
@@ -56,7 +56,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_New_Zealand_NZR_DSJ_purchase, "gfx/Diesel/Denmark_DSB_MaK_100.png") {
+spriteset(spriteset_diesel_New_Zealand_NZR_DSJ_purchase, "gfx/Diesel/New_Zealand_NZR_DSJ.png") {
 	template_purchase(1, 64)
 }
 
@@ -65,7 +65,7 @@ spriteset(spriteset_diesel_New_Zealand_NZR_DSJ_purchase, "gfx/Diesel/Denmark_DSB
 */
 
 //Engine
-spriteset(spriteset_diesel_New_Zealand_NZR_DSJ, "gfx/Diesel/Denmark_DSB_MaK_100.png") {
+spriteset(spriteset_diesel_New_Zealand_NZR_DSJ, "gfx/Diesel/New_Zealand_NZR_DSJ.png") {
 	template_2cc_engines_general(1, 1)
 }
 

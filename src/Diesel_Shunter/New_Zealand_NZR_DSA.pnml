@@ -12,7 +12,7 @@
 #define ITEM item_diesel_New_Zealand_NZR_DSA
 #define NAME string(str_diesel_New_Zealand_NZR_DSA)
 
-#define VEHICLE_REGION REGION(OCEANIA,NOREGION,NOCONCEPT)
+#define VEHICLE_REGION REGION(ISSHUNT,NOCONCEPT)
 
 #define INTRODUCTION_YEAR 1953
 #define MODEL_LIFE 12
@@ -28,8 +28,8 @@
 #define TE_COEFFICIENT 0.18
 #define AIR_DRAG_COEFFICIENT 0
 
-#define LENGTH 7
-#define ACTUAL_LENGTH 7
+#define LENGTH 5
+#define ACTUAL_LENGTH 5
 
 #define HEAD_CAPACITY 0
 
@@ -56,7 +56,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_New_Zealand_NZR_DSA_purchase, "gfx/Diesel/Algeria_SNTF_Baldwin_DRS6_4_1000.png") {
+spriteset(spriteset_diesel_New_Zealand_NZR_DSA_purchase, "gfx/Diesel/Australia_Queensland_Railways_DL_Class.png") {
 	template_purchase(1, 64)
 }
 
@@ -65,7 +65,7 @@ spriteset(spriteset_diesel_New_Zealand_NZR_DSA_purchase, "gfx/Diesel/Algeria_SNT
 */
 
 //Engine
-spriteset(spriteset_diesel_New_Zealand_NZR_DSA, "gfx/Diesel/Algeria_SNTF_Baldwin_DRS6_4_1000.png") {
+spriteset(spriteset_diesel_New_Zealand_NZR_DSA, "gfx/Diesel/Australia_Queensland_Railways_DL_Class.png") {
 	template_2cc_engines_general(1, 1)
 }
 

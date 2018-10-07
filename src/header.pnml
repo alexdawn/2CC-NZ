@@ -65,7 +65,7 @@ grf {
 		}
 	}
 	param {
-		SHUNTERS {
+		ISSHUNT {
 			type:	bool;
 			name:	string(STR_PARAM_SHUNTERS);
 			desc:	string(STR_PARAM_SHUNTERS_DESC);
@@ -73,18 +73,10 @@ grf {
 		}
 	}
 	param {
-		EARLY_RETIRE {
+		param_early_retire {
 			type:	bool;
 			name:	string(STR_PARAM_EARLY_RETIRE);
 			desc:	string(STR_PARAM_EARLY_RETIRE_DESC);
-			def_value: 1;
-		}
-	}
-	param {
-		OCEANIA {
-			type:	bool;
-			name:	string(STR_PARAM_REGION_OCEANIA);
-			desc:	string(STR_PARAM_REGION_OCEANIA_DESC);
 			def_value: 1;
 		}
 	}

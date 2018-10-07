@@ -12,7 +12,7 @@
 #define ITEM item_emu_New_Zealand_NZR_EM_ET
 #define NAME string(str_emu_New_Zealand_NZR_EM_ET)
 
-#define VEHICLE_REGION REGION(OCEANIA,NOREGION,NOCONCEPT)
+#define VEHICLE_REGION REGION(NOSHUNT,NOCONCEPT)
 
 #define INTRODUCTION_YEAR 1979
 #define MODEL_LIFE 10

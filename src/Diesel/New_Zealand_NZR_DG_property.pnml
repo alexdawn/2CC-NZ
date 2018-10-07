@@ -12,7 +12,7 @@
 #define ITEM item_diesel_New_Zealand_NZR_DG
 #define NAME string(str_diesel_New_Zealand_NZR_DG)
 
-#define VEHICLE_REGION REGION(OCEANIA,NOREGION,NOCONCEPT)
+#define VEHICLE_REGION REGION(NOSHUNT,NOCONCEPT)
 
 #define INTRODUCTION_YEAR 1955
 #define MODEL_LIFE 10
