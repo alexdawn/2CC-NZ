@@ -1,0 +1,181 @@
+/*
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML and is based on The Dutch Trainset 2.0 by Jasper Vries
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+//This file sets all vehicle IDs. Each type has a range of 1000 possible IDs.
+
+//Railbus-Steam, available ID range: 1000-1499 (hex 0x03E8..0x05DB)
+#define ID_RANGE_RBS 0x03E8..0x05DB
+
+//Railbus-Diesel, available ID range: 2000-2499 (hex 0x07D0..0x09C3)
+#define ID_RANGE_RBD 0x07D0..0x09C3
+item(FEAT_TRAINS, item_rbd_New_Zealand_NZR_RM31, 2000) {}
+
+//Railbus-Electric, available ID range: 3000-3499 (hex 0x0BB8..0x0DAB)
+#define ID_RANGE_RBE 0x0BB8..0x0DAB
+
+//Steam, available ID range: 4000-4999 (hex 0x0FA0..0x1387)
+#define ID_RANGE_STEAM 0x0FA0..0x1387
+item(FEAT_TRAINS, item_steam_New_Zealand_NZR_X_Class, 4000) {}
+item(FEAT_TRAINS, item_steam_New_Zealand_NZR_WAB, 4001) {}
+
+//Diesel, available ID range: 5000-5999 (hex 0x1388..0x176F)
+#define ID_RANGE_DIESEL 0x1388..0x176F
+
+//Electric, available ID range: 6000-6999 (hex 0x1770..0x1B57)
+#define ID_RANGE_ELECTRIC 0x1770..0x1B57
+item(FEAT_TRAINS, item_electric_New_Zealand_NZR_EO_Class, 6073) {}
+item(FEAT_TRAINS, item_electric_New_Zealand_NZR_EA, 6102) {}
+item(FEAT_TRAINS, item_electric_New_Zealand_TranzRail_EF, 6113) {}
+
+//DMU, available ID range: 7000-7999 (hex 0x1B58..0x1F3F)
+#define ID_RANGE_DMU 0x1B58..0x1F3F
+
+//EMU, available ID range: 8000-8999 (hex 0x1F40..0x2327)
+#define ID_RANGE_EMU 0x1F40..0x2327
+item(FEAT_TRAINS, item_emu_New_Zealand_NZR_EM_ET_Class, 8052) {}
+
+//Multi Unit Metro, available ID range: 9000-9999 (hex 0x2328..0x270F)
+#define ID_RANGE_MULTIMETRO 0x2328..0x270F
+
+//Multi Unit Maglev, available ID range: 10000-10499 (hex 0x2710..0x2903)
+#define ID_RANGE_MULTIMAGLEV 0x2710..0x2903
+
+//Coaches, available ID range: 11000-11999 (hex 0x2AF8..0x2EDF)
+#define ID_RANGE_COACHES 0x2AF8..0x2EDF
+item(FEAT_TRAINS, item_coach_Gen1_Wooden_2_axle_Compartment_Coach, 11000) {}
+item(FEAT_TRAINS, item_coach_Gen1_Wooden_2_axle_Regional_Coach, 11001) {}
+item(FEAT_TRAINS, item_coach_Gen1_Wooden_2_axle_Mail_Coach, 11002) {}
+item(FEAT_TRAINS, item_coach_Gen1_Clerestory_Compartment_Coach, 11003) {}
+item(FEAT_TRAINS, item_coach_Gen1_Clerestory_Regional_Coach, 11004) {}
+item(FEAT_TRAINS, item_coach_Gen1_Clerestory_Mail_Coach, 11005) {}
+item(FEAT_TRAINS, item_coach_Gen1_Wooden_3_axle_Compartment_Coach, 11006) {}
+item(FEAT_TRAINS, item_coach_Gen1_Wooden_3_axle_Regional_Coach, 11007) {}
+item(FEAT_TRAINS, item_coach_Gen1_Wooden_3_axle_Mail_Coach, 11008) {}
+item(FEAT_TRAINS, item_coach_Gen2_Heavyweight_Intercity_Coach, 11009) {}
+item(FEAT_TRAINS, item_coach_Gen2_Heavyweight_Mail_Coach, 11010) {}
+item(FEAT_TRAINS, item_coach_Gen2_Steel_Intercity_Coach, 11011) {}
+item(FEAT_TRAINS, item_coach_Gen2_Steel_Compartment_Coach, 11012) {}
+item(FEAT_TRAINS, item_coach_Gen2_Steel_Regional_Coach, 11013) {}
+item(FEAT_TRAINS, item_coach_Gen2_Steel_Mail_Coach, 11014) {}
+item(FEAT_TRAINS, item_coach_Gen2_Steel_2_axle_Compartment_Coach, 11015) {}
+item(FEAT_TRAINS, item_coach_Gen2_Steel_2_axle_Regional_Coach, 11016) {}
+item(FEAT_TRAINS, item_coach_Gen2_Steel_2_axle_Mail_Coach, 11017) {}
+item(FEAT_TRAINS, item_coach_Gen2_Steel_3_axle_Compartment_Coach, 11018) {}
+item(FEAT_TRAINS, item_coach_Gen2_Steel_3_axle_Regional_Coach, 11019) {}
+item(FEAT_TRAINS, item_coach_Gen2_Steel_3_axle_Mail_Coach, 11020) {}
+item(FEAT_TRAINS, item_coach_Gen3_Steel_Lightweight_Intercity_Coach, 11021) {}
+item(FEAT_TRAINS, item_coach_Gen3_Steel_Lightweight_Regional_Coach, 11022) {}
+item(FEAT_TRAINS, item_coach_Gen3_Steel_Lightweight_Mail_Coach, 11023) {}
+item(FEAT_TRAINS, item_coach_Gen3_Aluminium_Lightweight_Intercity_Coach, 11024) {}
+item(FEAT_TRAINS, item_coach_Gen3_Aluminium_Lightweight_Regional_Coach, 11025) {}
+item(FEAT_TRAINS, item_coach_Gen3_Aluminium_Lightweight_Mail_Coach, 11026) {}
+item(FEAT_TRAINS, item_coach_Gen3_Gallery_Car, 11027) {}
+item(FEAT_TRAINS, item_coach_Gen3_Mk1_Intercity_Coach, 11028) {}
+item(FEAT_TRAINS, item_coach_Gen3_Mk1_Regional_Coach, 11029) {}
+item(FEAT_TRAINS, item_coach_Gen3_Mk1_Mail_Coach, 11030) {}
+item(FEAT_TRAINS, item_coach_Gen3_UIC_X_Intercity_Coach, 11031) {}
+item(FEAT_TRAINS, item_coach_Gen3_TEE_Intercity_Coach, 11032) {}
+item(FEAT_TRAINS, item_coach_Gen3_UIC_X_Regional_Coach, 11033) {}
+item(FEAT_TRAINS, item_coach_Gen3_UIC_X_Mail_Coach, 11036) {}
+item(FEAT_TRAINS, item_coach_Gen4_Eurofima_Intercity_Coach, 11041) {}
+item(FEAT_TRAINS, item_coach_Gen4_InterRegio_Coach, 11042) {}
+item(FEAT_TRAINS, item_coach_Gen4_Silberling_Commuter_Coach, 11043) {}
+item(FEAT_TRAINS, item_coach_Gen4_Eurofima_Mail_Coach, 11044) {}
+item(FEAT_TRAINS, item_coach_Gen4_Comet_Commuter_Coach, 11053) {}
+item(FEAT_TRAINS, item_coach_Gen4_Horizon_Regional_Coach, 11054) {}
+item(FEAT_TRAINS, item_coach_Gen4_Horizon_Baggage_Coach, 11055) {}
+item(FEAT_TRAINS, item_coach_Gen5_High_Speed_Coach, 11057) {}
+item(FEAT_TRAINS, item_coach_Gen5_Modern_Regional_Coach, 11058) {}
+item(FEAT_TRAINS, item_coach_Gen5_Modern_Commuter_Coach, 11059) {}
+item(FEAT_TRAINS, item_coach_Gen5_High_Speed_Mail_Coach, 11062) {}
+item(FEAT_TRAINS, item_coach_Gen5_Talgo_Pendular, 11063) {}
+item(FEAT_TRAINS, item_coach_Gen5_Talgo_Pendular_Mail, 11064) {}
+item(FEAT_TRAINS, item_coach_Gen6_Grand_Voyager_Coach, 11065) {}
+item(FEAT_TRAINS, item_coach_Gen6_Grand_Regio_Coach, 11066) {}
+item(FEAT_TRAINS, item_coach_Gen6_Metropolis_Coach, 11067) {}
+item(FEAT_TRAINS, item_coach_Gen6_Speedmail_Coach, 11068) {}
+item(FEAT_TRAINS, item_coach_Gen6_Super_Regio_Coach, 11069) {}
+item(FEAT_TRAINS, item_coach_Gen6_Super_Voyager_Coach, 11070) {}
+
+//Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)
+#define ID_RANGE_WAGONS 0x2EE0..0x32C7
+item(FEAT_TRAINS, item_wagon_Gen1_Flat_Wagon, 12000) {}
+item(FEAT_TRAINS, item_wagon_Gen1_BoxCar, 12001) {}
+item(FEAT_TRAINS, item_wagon_Gen1_Tanker, 12002) {}
+item(FEAT_TRAINS, item_wagon_Gen1_Open_Wagon, 12003) {}
+item(FEAT_TRAINS, item_wagon_Gen2_Flat_Wagon, 12004) {}
+item(FEAT_TRAINS, item_wagon_Gen2_Boxcar_Type1, 12005) {}
+item(FEAT_TRAINS, item_wagon_Gen2_Tanker, 12006) {}
+item(FEAT_TRAINS, item_wagon_Gen2_Open_Wagon, 12007) {}
+item(FEAT_TRAINS, item_wagon_Gen2_Silo, 12008) {}
+item(FEAT_TRAINS, item_wagon_Gen2_Hopper, 12009) {}
+item(FEAT_TRAINS, item_wagon_Gen3_Flat_Wagon, 12010) {}
+item(FEAT_TRAINS, item_wagon_Gen3_Boxcar_Type1, 12011) {}
+item(FEAT_TRAINS, item_wagon_Gen3_Tanker, 12012) {}
+item(FEAT_TRAINS, item_wagon_Gen3_Open_Wagon, 12013) {}
+item(FEAT_TRAINS, item_wagon_Gen3_Silo_Type1, 12014) {}
+item(FEAT_TRAINS, item_wagon_Gen3_Hopper, 12015) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Flatcar, 12016) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Heavy_Flatcar, 12017) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Boxcar_Type1, 12018) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Tanker, 12019) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Gondola, 12020) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Silo_Type1, 12021) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Hopper_Type1, 12022) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Car_Transporter, 12023) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Container_Carrier, 12024) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Centerbeam, 12025) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Flatcar, 12026) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Heavy_Flatcar, 12027) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Boxcar_Type1, 12028) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Tanker, 12029) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Gondola, 12030) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Silo_Type1, 12031) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Hopper_Type1, 12032) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Car_Transporter, 12033) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Container_Carrier, 12034) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Centerbeam, 12035) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Container_Doublestack, 12036) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Superheavy_Flatcar, 12037) {}
+item(FEAT_TRAINS, item_wagon_Gen2_Boxcar_Type2, 12038) {}
+item(FEAT_TRAINS, item_wagon_Gen3_Silo_Type2, 12039) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Silo_Type2, 12040) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Hopper_Type2, 12041) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Boxcar_Type2, 12042) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Silo_Type2, 12043) {}
+item(FEAT_TRAINS, item_wagon_Gen5_Hopper_Type2, 12044) {}
+item(FEAT_TRAINS, item_wagon_Service_Car_Type1, 12045) {}
+item(FEAT_TRAINS, item_wagon_Service_Car_Type2, 12046) {}
+item(FEAT_TRAINS, item_wagon_Gen3_Boxcar_Type2, 12047) {}
+item(FEAT_TRAINS, item_wagon_Gen4_Boxcar_Type2, 12048) {}
+
+//Unit Wagons, available ID range: 13000-13499 (hex 0x32C8..0x34BB)
+#define ID_RANGE_UNIT_WAGONS 0x32C8..0x34BB
+#define ID_RANGE_UNIT_WAGONS_RAIL 0x32C8..0x32C9
+#define ID_RANGE_UNIT_WAGONS_MTRO 0x32CA..0x32CB
+#define ID_RANGE_UNIT_WAGONS_MGLV 0x32CC..0x32CD
+#define ID_RANGE_UNIT_WAGONS_RAIL_CARGO 0x32CE..0x32CF
+item(FEAT_TRAINS, item_mu_wagon_unpowered, 13000) {}
+item(FEAT_TRAINS, item_mu_wagon_powered, 13001) {}
+
+//Single Unit Metros, available ID range: 14000-14499 (hex 0x36B0..0x38A3)
+#define ID_RANGE_SINGLEMETRO 0x36B0..0x38A3
+
+//SMU, available ID range: 14500-14999 (hex 0x38A4..0x3A97)
+#define ID_RANGE_SMU 0x38A4..0x3A97
+//Currently has no vehicles, range reserved
+
+//Cargo DMU, available ID range: 15500-15499 (hex 0x3C8C..0x3E7F)
+#define ID_RANGE_CARGODMU 0x3C8C..0x3E7F
+
+//Railbus-Maglev, available ID range: 16000-16499 (hex 0x3E80..0x4073)
+#define ID_RANGE_RBM 0x3E80..0x4073
+
+//Single Unit Maglevs, available ID range: 15000-15499 (hex 0x3A98..0x3C8B)
+#define ID_RANGE_SINGLEMAGLEV 0x3A98..0x3C8B
+//Currently has no vehicles, range reserved
